@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http:://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>register</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/20962f3e4b.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<script>
+	let email = localStorage.getItem('email');
+
+		$(document).ready(function(){
+			
+		if(email != null){
+			$('input[name="email"]').val(email);
+			//let tags = "<span>"+email+"<span>";
+			//$('.email > td:nth-child(2)').append(tags);
+		}else{
+			$('input[name="email"]').val();
+		}
+	});
+		
+		
+		
+</script>
+<body>
+	<h3>회원가입</h3>
+	<form th:action="@{/register}" method="post">
+		<table border="#" class="rg_tb">
+			<tr>
+				<td>아이디</td>
+				<td><input type="text" name="uid"></td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>번호</td>
+				<td><input type="text" name="hp"></td>
+			</tr>
+			<tr class="email">
+				<td>이메일</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>닉네임</td>
+				<td><input type="text" name="nick"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><input type="submit" value="가입하기"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

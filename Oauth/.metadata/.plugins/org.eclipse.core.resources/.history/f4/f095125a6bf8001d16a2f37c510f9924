@@ -1,0 +1,5 @@
+package kr.co.oauth.vo;
+
+public class SnsInfoVO {
+
+}

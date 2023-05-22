@@ -1,0 +1,48 @@
+package kr.co.oauth.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import kr.co.oauth.service.OauthService;
+
+@Controller
+public class MainController {
+	
+	@Autowired
+	private OauthService service;
+	
+	@GetMapping("login")
+	public String login() {
+		return "login";
+	}
+	
+	@ResponseBody
+	@GetMapping("oauth/countEmail")
+	public int countEmail(@RequestParam("email") String email) {
+		
+		int result = service.selectCountEmail(email);
+		
+		Map<String, Integer> map = new HashMap<>();
+		
+		map.put("result", result);
+	
+		return 1;
+	}
+	
+	@GetMapping("register")
+	public String registger() {
+		return "register";
+	}
+	
+	@GetMapping("complete")
+	public String complete() {
+		return "complete";
+	}
+
+}
