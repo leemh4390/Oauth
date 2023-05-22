@@ -1,0 +1,643 @@
+2023-05-23T00:02:44.410+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:02:44.431+09:00  INFO 7972 --- [Thread-198] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:02:44.431+09:00  INFO 7972 --- [Thread-198] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:02:44.437+09:00  INFO 7972 --- [Thread-198] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:02:44.438+09:00  INFO 7972 --- [Thread-198] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown initiated...
+2023-05-23T00:02:44.439+09:00  INFO 7972 --- [Thread-198] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown completed.
+2023-05-23T00:02:44.499+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:02:44.500+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:02:44.761+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:02:44.764+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:02:44.868+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:02:44.868+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:02:44.868+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:02:44.923+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:02:44.923+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 420 ms
+2023-05-23T00:02:44.962+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:02:44.975+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Starting...
+2023-05-23T00:02:45.073+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-43 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bce3ed
+2023-05-23T00:02:45.074+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Start completed.
+2023-05-23T00:02:45.074+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:02:45.075+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:02:45.087+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:02:45.088+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:02:45.142+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:02:45.262+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:02:45.274+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:02:45.279+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.828 seconds (process running for 6432.847)
+2023-05-23T00:02:45.282+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:02:45.291+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:02:45.292+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:02:45.293+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:02:45.295+09:00 ERROR 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/Oauth] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type String
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type String
+
+	at kr.co.oauth.controller.MainController.login(MainController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-23T00:03:08.349+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:03:08.362+09:00  INFO 7972 --- [Thread-205] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:03:08.362+09:00  INFO 7972 --- [Thread-205] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:03:08.367+09:00  INFO 7972 --- [Thread-205] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:08.367+09:00  INFO 7972 --- [Thread-205] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown initiated...
+2023-05-23T00:03:08.369+09:00  INFO 7972 --- [Thread-205] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown completed.
+2023-05-23T00:03:08.463+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:03:08.463+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:03:08.706+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:03:08.710+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:03:08.820+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:03:08.821+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:03:08.821+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:03:08.870+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:03:08.870+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 404 ms
+2023-05-23T00:03:08.908+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:03:08.920+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Starting...
+2023-05-23T00:03:09.002+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-44 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a78facc
+2023-05-23T00:03:09.002+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Start completed.
+2023-05-23T00:03:09.002+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:03:09.002+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:03:09.013+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:03:09.013+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:09.046+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:03:09.149+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:03:09.161+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:03:09.166+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.74 seconds (process running for 6456.734)
+2023-05-23T00:03:09.169+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:03:09.177+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:03:09.177+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:03:09.179+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-23T00:03:09.181+09:00 ERROR 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/Oauth] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type String
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type String
+
+	at kr.co.oauth.controller.MainController.login(MainController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-23T00:03:21.927+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:03:21.940+09:00  INFO 7972 --- [Thread-209] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:03:21.940+09:00  INFO 7972 --- [Thread-209] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:03:21.945+09:00  INFO 7972 --- [Thread-209] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:21.945+09:00  INFO 7972 --- [Thread-209] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown initiated...
+2023-05-23T00:03:21.947+09:00  INFO 7972 --- [Thread-209] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown completed.
+2023-05-23T00:03:22.048+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:03:22.049+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:03:22.327+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:03:22.330+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:03:22.441+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:03:22.442+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:03:22.442+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:03:22.494+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Oauth]  : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:03:22.494+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 443 ms
+2023-05-23T00:03:22.521+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:03:22.532+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Starting...
+2023-05-23T00:03:22.636+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-45 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ae98dd6
+2023-05-23T00:03:22.637+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Start completed.
+2023-05-23T00:03:22.637+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:03:22.637+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:03:22.651+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:03:22.651+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:22.663+09:00  WARN 7972 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mainController': Lookup method resolution failed
+2023-05-23T00:03:22.663+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:22.663+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown initiated...
+2023-05-23T00:03:22.664+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown completed.
+2023-05-23T00:03:22.665+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:03:22.674+09:00  INFO 7972 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-23T00:03:22.711+09:00 ERROR 7972 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mainController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:471) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:341) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.7.jar:3.0.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.7.jar:3.0.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.7.jar:3.0.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.7.jar:3.0.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.7.jar:3.0.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.7.jar:3.0.7]
+	at kr.co.oauth.OauthApplication.main(OauthApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.7.jar:3.0.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [kr.co.oauth.controller.MainController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@45605f07]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.9.jar:6.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:449) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: HttpSession
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.9.jar:6.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: HttpSession
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.0.7.jar:3.0.7]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2023-05-23T00:03:30.378+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:03:30.379+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:03:30.630+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:03:30.635+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:03:30.722+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:03:30.723+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:03:30.723+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:03:30.778+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:03:30.778+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 396 ms
+2023-05-23T00:03:30.809+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:03:30.820+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Starting...
+2023-05-23T00:03:30.907+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-46 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a49ea46
+2023-05-23T00:03:30.908+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Start completed.
+2023-05-23T00:03:30.908+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:03:30.908+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:03:30.918+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:03:30.919+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:03:30.952+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:03:31.058+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:03:31.071+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:03:31.076+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.732 seconds (process running for 6478.643)
+2023-05-23T00:03:31.081+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:03:31.093+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:03:31.093+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:03:31.094+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:04:09.542+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:04:09.553+09:00  INFO 7972 --- [Thread-213] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:04:09.554+09:00  INFO 7972 --- [Thread-213] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:04:09.558+09:00  INFO 7972 --- [Thread-213] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:04:09.558+09:00  INFO 7972 --- [Thread-213] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Shutdown initiated...
+2023-05-23T00:04:09.560+09:00  INFO 7972 --- [Thread-213] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Shutdown completed.
+2023-05-23T00:04:09.657+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:04:09.657+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:04:09.953+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:04:09.956+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:04:10.078+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:04:10.079+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:04:10.079+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:04:10.133+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:04:10.133+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 473 ms
+2023-05-23T00:04:10.170+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:04:10.183+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Starting...
+2023-05-23T00:04:10.263+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-47 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe6693
+2023-05-23T00:04:10.263+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Start completed.
+2023-05-23T00:04:10.264+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:04:10.264+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:04:10.276+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:04:10.276+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:04:10.310+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:04:10.417+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:04:10.430+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:04:10.436+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.817 seconds (process running for 6518.003)
+2023-05-23T00:04:10.438+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:04:10.447+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:04:10.447+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:04:10.448+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:04:14.964+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:04:14.976+09:00  INFO 7972 --- [Thread-220] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:04:14.977+09:00  INFO 7972 --- [Thread-220] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:04:14.982+09:00  INFO 7972 --- [Thread-220] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:04:14.983+09:00  INFO 7972 --- [Thread-220] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Shutdown initiated...
+2023-05-23T00:04:14.984+09:00  INFO 7972 --- [Thread-220] com.zaxxer.hikari.HikariDataSource       : HikariPool-47 - Shutdown completed.
+2023-05-23T00:04:15.084+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:04:15.085+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:04:15.381+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:04:15.384+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:04:15.487+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:04:15.487+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:04:15.487+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:04:15.537+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:04:15.537+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 450 ms
+2023-05-23T00:04:15.570+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:04:15.581+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Starting...
+2023-05-23T00:04:15.687+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-48 - Added connection com.mysql.cj.jdbc.ConnectionImpl@99c027e
+2023-05-23T00:04:15.687+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Start completed.
+2023-05-23T00:04:15.687+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:04:15.687+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:04:15.698+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:04:15.699+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:04:15.732+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:04:15.833+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:04:15.845+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:04:15.851+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.805 seconds (process running for 6523.419)
+2023-05-23T00:04:15.852+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:04:15.860+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:04:15.860+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:04:15.862+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-23T00:05:07.723+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:05:07.736+09:00  INFO 7972 --- [Thread-224] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:05:07.736+09:00  INFO 7972 --- [Thread-224] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:05:07.740+09:00  INFO 7972 --- [Thread-224] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:05:07.741+09:00  INFO 7972 --- [Thread-224] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Shutdown initiated...
+2023-05-23T00:05:07.742+09:00  INFO 7972 --- [Thread-224] com.zaxxer.hikari.HikariDataSource       : HikariPool-48 - Shutdown completed.
+2023-05-23T00:05:07.833+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:05:07.833+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:05:08.092+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:05:08.094+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:05:08.206+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:05:08.207+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:05:08.207+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:05:08.257+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:05:08.257+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 422 ms
+2023-05-23T00:05:08.292+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:05:08.304+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Starting...
+2023-05-23T00:05:08.398+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-49 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bfbc085
+2023-05-23T00:05:08.398+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Start completed.
+2023-05-23T00:05:08.399+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:05:08.399+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:05:08.410+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:05:08.410+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:05:08.451+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:05:08.570+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:05:08.584+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:05:08.589+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.788 seconds (process running for 6576.156)
+2023-05-23T00:05:08.591+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:05:08.684+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:05:08.684+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:05:08.685+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:06:05.848+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:06:05.861+09:00  INFO 7972 --- [Thread-228] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:06:05.861+09:00  INFO 7972 --- [Thread-228] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:06:05.866+09:00  INFO 7972 --- [Thread-228] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:05.866+09:00  INFO 7972 --- [Thread-228] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Shutdown initiated...
+2023-05-23T00:06:05.868+09:00  INFO 7972 --- [Thread-228] com.zaxxer.hikari.HikariDataSource       : HikariPool-49 - Shutdown completed.
+2023-05-23T00:06:05.961+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:06:05.962+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:06:06.234+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:06:06.238+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:06:06.348+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:06:06.348+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:06:06.348+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:06:06.399+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:06:06.399+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 435 ms
+2023-05-23T00:06:06.437+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:06:06.447+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Starting...
+2023-05-23T00:06:06.540+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-50 - Added connection com.mysql.cj.jdbc.ConnectionImpl@273af8d
+2023-05-23T00:06:06.541+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Start completed.
+2023-05-23T00:06:06.541+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:06:06.541+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:06:06.553+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:06:06.553+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:06.596+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:06:06.712+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:06:06.729+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:06:06.744+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.818 seconds (process running for 6634.312)
+2023-05-23T00:06:06.755+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:06:06.756+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:06:06.756+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:06:06.759+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-05-23T00:06:14.327+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:06:14.338+09:00  INFO 7972 --- [Thread-232] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:06:14.338+09:00  INFO 7972 --- [Thread-232] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:06:14.343+09:00  INFO 7972 --- [Thread-232] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:14.343+09:00  INFO 7972 --- [Thread-232] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Shutdown initiated...
+2023-05-23T00:06:14.345+09:00  INFO 7972 --- [Thread-232] com.zaxxer.hikari.HikariDataSource       : HikariPool-50 - Shutdown completed.
+2023-05-23T00:06:14.438+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:06:14.439+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:06:14.693+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:06:14.697+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:06:14.801+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:06:14.802+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:06:14.802+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:06:14.852+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:06:14.852+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 411 ms
+2023-05-23T00:06:14.887+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:06:14.898+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Starting...
+2023-05-23T00:06:14.977+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-51 - Added connection com.mysql.cj.jdbc.ConnectionImpl@447eaca2
+2023-05-23T00:06:14.978+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Start completed.
+2023-05-23T00:06:14.978+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:06:14.978+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:06:14.991+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:06:14.991+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:15.024+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:06:15.122+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:06:15.135+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:06:15.141+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.737 seconds (process running for 6642.708)
+2023-05-23T00:06:15.142+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:06:15.148+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:06:15.148+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:06:15.150+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:06:24.802+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:06:24.813+09:00  INFO 7972 --- [Thread-236] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:06:24.814+09:00  INFO 7972 --- [Thread-236] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:06:24.818+09:00  INFO 7972 --- [Thread-236] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:24.819+09:00  INFO 7972 --- [Thread-236] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Shutdown initiated...
+2023-05-23T00:06:24.820+09:00  INFO 7972 --- [Thread-236] com.zaxxer.hikari.HikariDataSource       : HikariPool-51 - Shutdown completed.
+2023-05-23T00:06:24.943+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:06:24.944+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:06:25.207+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:06:25.209+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:06:25.307+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:06:25.307+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:06:25.307+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:06:25.360+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:06:25.360+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 413 ms
+2023-05-23T00:06:25.392+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:06:25.403+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Starting...
+2023-05-23T00:06:25.502+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-52 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bdf163d
+2023-05-23T00:06:25.502+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Start completed.
+2023-05-23T00:06:25.503+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:06:25.503+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:06:25.515+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:06:25.516+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:25.550+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:06:25.651+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:06:25.666+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:06:25.673+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.776 seconds (process running for 6653.24)
+2023-05-23T00:06:25.675+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:06:25.683+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:06:25.683+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:06:25.684+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-23T00:06:38.425+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T00:06:38.439+09:00  INFO 7972 --- [Thread-240] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T00:06:38.439+09:00  INFO 7972 --- [Thread-240] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T00:06:38.444+09:00  INFO 7972 --- [Thread-240] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:38.444+09:00  INFO 7972 --- [Thread-240] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Shutdown initiated...
+2023-05-23T00:06:38.446+09:00  INFO 7972 --- [Thread-240] com.zaxxer.hikari.HikariDataSource       : HikariPool-52 - Shutdown completed.
+2023-05-23T00:06:38.539+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T00:06:38.539+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T00:06:38.780+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T00:06:38.783+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T00:06:38.875+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T00:06:38.875+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T00:06:38.875+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T00:06:38.929+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T00:06:38.929+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2023-05-23T00:06:38.960+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T00:06:38.970+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Starting...
+2023-05-23T00:06:39.056+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-53 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ba1bb9c
+2023-05-23T00:06:39.057+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Start completed.
+2023-05-23T00:06:39.057+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T00:06:39.057+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T00:06:39.068+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T00:06:39.068+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T00:06:39.100+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T00:06:39.200+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T00:06:39.213+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T00:06:39.218+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.714 seconds (process running for 6666.785)
+2023-05-23T00:06:39.221+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T00:06:39.230+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T00:06:39.231+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T00:06:39.231+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-23T00:06:39.809+09:00 ERROR 7972 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "": Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-23T00:06:39.815+09:00 ERROR 7972 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/Oauth] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-23T01:20:25.128+09:00  INFO 7972 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-23T01:20:25.140+09:00  INFO 7972 --- [Thread-244] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T01:20:25.140+09:00  INFO 7972 --- [Thread-244] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T01:20:25.144+09:00  INFO 7972 --- [Thread-244] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T01:20:25.144+09:00  INFO 7972 --- [Thread-244] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Shutdown initiated...
+2023-05-23T01:20:25.146+09:00  INFO 7972 --- [Thread-244] com.zaxxer.hikari.HikariDataSource       : HikariPool-53 - Shutdown completed.
+2023-05-23T01:20:25.252+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Starting OauthApplication using Java 17.0.5 with PID 7972 (C:\Users\user\Desktop\workspace\Oauth\Oauth\target\classes started by user in C:\Users\user\Desktop\workspace\Oauth\Oauth)
+2023-05-23T01:20:25.253+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-23T01:20:25.540+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-23T01:20:25.543+09:00  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-05-23T01:20:25.653+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-23T01:20:25.653+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-23T01:20:25.653+09:00  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-23T01:20:25.712+09:00  INFO 7972 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring embedded WebApplicationContext
+2023-05-23T01:20:25.712+09:00  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2023-05-23T01:20:25.746+09:00  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-23T01:20:25.761+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Starting...
+2023-05-23T01:20:25.845+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-54 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c84ef6d
+2023-05-23T01:20:25.845+09:00  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Start completed.
+2023-05-23T01:20:25.846+09:00  INFO 7972 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-05-23T01:20:25.846+09:00  WARN 7972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-23T01:20:25.858+09:00  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-23T01:20:25.858+09:00  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T01:20:25.899+09:00  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-23T01:20:26.024+09:00  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-23T01:20:26.038+09:00  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Oauth'
+2023-05-23T01:20:26.045+09:00  INFO 7972 --- [restartedMain] kr.co.oauth.OauthApplication             : Started OauthApplication in 0.834 seconds (process running for 11093.612)
+2023-05-23T01:20:26.047+09:00  INFO 7972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-23T01:20:26.063+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/Oauth]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-23T01:20:26.064+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-23T01:20:26.066+09:00  INFO 7972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-23T01:20:35.624+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-23T01:20:35.634+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-23T01:20:35.634+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] o.a.c.c.C.[.[localhost].[/Oauth]         : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-23T01:20:35.642+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-23T01:20:35.643+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Shutdown initiated...
+2023-05-23T01:20:35.644+09:00  INFO 7972 --- [RMI TCP Connection(318)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-54 - Shutdown completed.
